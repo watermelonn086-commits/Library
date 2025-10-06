@@ -321,7 +321,7 @@ function Update:Window(Config)
 	local keybind = keybind or Enum.KeyCode.RightControl;
 	local yoo = string.gsub(tostring(keybind), "Enum.KeyCode.", "");
 	local STELLAR = Instance.new("ScreenGui");
-	STELLAR.Name = "STELLAR";
+	STELLAR.Name = "SCYTH";
 	STELLAR.Parent = game.CoreGui;
 	STELLAR.DisplayOrder = 999;
 	local OutlineMain = Instance.new("Frame");
@@ -1630,3 +1630,4 @@ Grad3.Parent = Sep3;
 	return uitab;
 end;
 return Update;
+
