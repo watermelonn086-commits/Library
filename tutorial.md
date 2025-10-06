@@ -1,5 +1,5 @@
 # Example
-'-- -- // STELLAR Loader tanpa suara ketik dan tombol skip
+-- -- // STELLAR Loader tanpa suara ketik dan tombol skip
 
 -- local Players = game:GetService("Players")
 -- local TweenService = game:GetService("TweenService")
@@ -200,4 +200,4 @@ end)
 General:Button("Join Server", function()
     print("Teleporting to Job ID...") -- Ganti dengan teleport logic jika diperlukan
 end)
--- loadstring(game:HttpGet("https://raw.githubusercontent.com/FOGOTY/FoggyObfuscator/refs/heads/main/script"))()'
+-- loadstring(game:HttpGet("https://raw.githubusercontent.com/FOGOTY/FoggyObfuscator/refs/heads/main/script"))()
